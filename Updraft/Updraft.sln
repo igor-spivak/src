@@ -26,7 +26,6 @@ Global
 		{4D03B861-8B29-4D99-BD77-6A5400A93FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D03B861-8B29-4D99-BD77-6A5400A93FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D03B861-8B29-4D99-BD77-6A5400A93FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D03B861-8B29-4D99-BD77-6A5400A93FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
