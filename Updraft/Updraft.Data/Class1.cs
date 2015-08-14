@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Updraft.Data
 {
-    public class Class1
+    internal class Class1
     {
+	    public Class1()
+	    {
+		    //Log.creating classs
+	    }
     }
 }
