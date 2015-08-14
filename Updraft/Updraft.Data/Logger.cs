@@ -1,25 +1,28 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Class1.cs" company="">
+// <copyright file="Logger.cs" company="">
 //   
 // </copyright>
 // <summary>
-//   The class 1.
+//   The logger.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
+
+#region
+
+using NLog;
+
+#endregion
 
 namespace Updraft.Data
 {
 	/// <summary>
-	/// The class 1.
+	/// The logger.
 	/// </summary>
-	internal class Class1
+	public class Logger
 	{
 		/// <summary>
-		/// Initializes a new instance of the <see cref="Class1"/> class.
+		/// The n logger.
 		/// </summary>
-		public Class1()
-		{
-			Logger.NLogger.Info("Ctor of {0}", typeof(Class1));
-		}
+		public static NLog.Logger NLogger = LogManager.GetCurrentClassLogger();
 	}
 }
