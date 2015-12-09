@@ -79,9 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cost.cs" />
-    <Compile Include="CostMap.cs" />
-    <Compile Include="DataStorage.cs" />
+    <Compile Include="NHibernate\DataStorage.cs" />
     <Compile Include="Entity\BudgetStorage.cs" />
     <Compile Include="Entity\CostRepository.cs" />
     <Compile Include="Entity\DbCost.cs" />
@@ -90,8 +88,10 @@
     <Compile Include="Entity\Repository.cs" />
     <Compile Include="Entity\UserRepository.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="NHibernate\Cost.cs" />
+    <Compile Include="NHibernate\CostMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HibernateContext.cs" />
+    <Compile Include="NHibernate\HibernateContext.cs" />
     <Compile Include="TestAnything.cs" />
   </ItemGroup>
   <ItemGroup>

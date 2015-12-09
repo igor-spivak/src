@@ -13,7 +13,7 @@ using System;
 
 #endregion
 
-namespace Updraft.Data
+namespace Updraft.Data.NHibernate
 {
 	/// <summary>
 	/// Сущность трата.

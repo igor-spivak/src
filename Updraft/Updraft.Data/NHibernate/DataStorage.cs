@@ -11,11 +11,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
 using Updraft.Data.Settings;
 
 
-namespace Updraft.Data
+namespace Updraft.Data.NHibernate
 {
 	/// <summary>
 	/// The class DataStorage.

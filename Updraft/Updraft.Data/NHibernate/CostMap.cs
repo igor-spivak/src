@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 using FluentNHibernate.Mapping;
 
-namespace Updraft.Data
+namespace Updraft.Data.NHibernate
 {
-
 	public class CostMap : ClassMap<Cost>
 	{
 		/// <summary>

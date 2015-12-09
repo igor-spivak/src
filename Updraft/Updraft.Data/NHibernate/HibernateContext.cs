@@ -19,7 +19,7 @@ using NHibernate.Tool.hbm2ddl;
 
 #endregion
 
-namespace Updraft.Data.Settings
+namespace Updraft.Data.NHibernate
 {
 	/// <summary>
 	/// Универсальный БД контекст.
